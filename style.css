@@ -24,8 +24,27 @@ body {
 
 }
 
+.Size {
+    width: 25%;
+}
+
 .foo {
     padding: 100px 0px;
     margin-top: 50px;
     background-color: rgb(37, 2, 2);
+}
+
+@media screen and (max-width:688px) {
+    .heading {
+        font-size: 2rem;
+    }
+
+    /* .img {
+        height: 50%;
+        width: 50%;
+        margin-top: 20px;
+    } */
+    .Size {
+        width: 75%;
+    }
 }
