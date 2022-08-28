@@ -20,7 +20,7 @@ document.getElementById("search").addEventListener("click", () => {
 })
 
 const displayData = (catcheData) => {
-    if (catcheData.length === undefined) {
+    if (catcheData === undefined) {
         loadData("");
     }
     else {
