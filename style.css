@@ -21,7 +21,6 @@ body {
 
 .footer {
     height: 20vh;
-
 }
 
 .Size {
@@ -36,7 +35,7 @@ body {
 
 @media screen and (max-width:688px) {
     .heading {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     /* .img {
