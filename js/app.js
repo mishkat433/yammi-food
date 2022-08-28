@@ -37,7 +37,7 @@ const displayData = (catcheData) => {
                             <hr/>
                             <div class="d-flex justify-content-between align-items-center mb-2"><h5 class="">Area : ${data.strArea} </h5><h5 class="">Category : ${data.strCategory} </h5></div>
                             <p class= " text-muted text-justify"  > ${data.strInstructions.slice(0, 200)}...</p >
-                            <p class="card-text text-muted text-center"><span class="text-dark">Metarials :</span> ${data.strIngredient1}, ${data.strIngredient2}, ${data.strIngredient3}, ${data.strIngredient4}, ${data.strIngredient5}, ${data.strIngredient5},
+                            <p class="card-text text-muted text-center"><span class="text-dark">Metarials :</span> ${data.strIngredient1}, ${data.strIngredient2}, ${data.strIngredient3}, ${data.strIngredient4}, ${data.strIngredient5}, ${data.strIngredient6},
                              ${data.strIngredient7}, ${data.strIngredient8}, ${data.strIngredient9}, ${data.strIngredient10}, ...</p >
                         </div >
                     </div >
