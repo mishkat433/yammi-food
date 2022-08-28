@@ -3,13 +3,13 @@ const loadData = (search) => {
     fetch(url)
         .then(res => res.json())
         .then(data => {
-            displayData(data.meals)
-            len(data.meals)
+            displayData(data.meals);
+            len(data.meals);
         })
-
 }
+
 const len = (le) => {
-    const count = document.getElementById("count").innerText = le.length;
+    document.getElementById("count").innerText = le.length;
 }
 
 document.getElementById("search").addEventListener("click", () => {
@@ -20,7 +20,7 @@ document.getElementById("search").addEventListener("click", () => {
 })
 
 const displayData = (catcheData) => {
-    if (catcheData.length === 0) {
+    if (catcheData.length === undefined) {
         loadData("");
     }
     else {
@@ -45,7 +45,5 @@ const displayData = (catcheData) => {
             parent.appendChild(div)
         });
     }
-
-
 }
 loadData("")
