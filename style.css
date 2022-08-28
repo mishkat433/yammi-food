@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:wght@100;200;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(60, 4, 4);
+}
+
+.full-header {}
+
+.img {
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.heading {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 4rem;
+    color: rgb(251, 222, 222);
+}
+
+.footer {
+    height: 20vh;
+
+}
+
+.foo {
+    padding: 100px 0px;
+    margin-top: 50px;
+    background-color: rgb(37, 2, 2);
+}
