@@ -19,6 +19,12 @@ document.getElementById("search").addEventListener("click", () => {
     input.value = "";
 })
 
+document.getElementById("input").addEventListener("input", (e) => {
+    loadData(e.target.value);
+    document.getElementById("searchText").innerText = e.target.value;
+})
+
+
 const displayData = (catcheData) => {
     if (catcheData === null || catcheData === '') {
         loadData("");
